@@ -8,6 +8,8 @@ A simple example of an animation using the Processing framework in Java. Some no
 - The `App` class instantiates many `Bubble` objects at random positions and tells them all to draw themselves to the screen at their `x`,`y` coordinates.
 - When the user clicks the mouse, the `App` class code checks whether the click occurred within the area of any of the `Bubble` objects, and removes that bubble from the window if so.
 
+![Bubbles](./images/screenshot.png)
+
 ## Technical requirements
 
 This project depends upon the [Processing](http://processing.org/) library. The `.jar` files for this dependency are included within the `lib` directory.
