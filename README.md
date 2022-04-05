@@ -46,6 +46,7 @@ At this point, the project should run properly. Try it out.
 
 This project has several important directories:
 
+- `images` - image files referred to by the code
 - `src` - contains the Java source code for the project (i.e. `.java` files)
 - `test` - contains code that will help us determine whether the code you have written works correctly. Do not touch this directory!
 - `bin` - contains the compiled code (i.e. `.class` files)
