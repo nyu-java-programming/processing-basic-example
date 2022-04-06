@@ -30,7 +30,7 @@ public class Bubble {
     public void draw() {
         // draw the ellipse in bluish hue
         app.fill(this.r, this.g, this.b);
-        app.ellipseMode(app.CENTER);
+        app.ellipseMode(App.CENTER);
         app.ellipse(this.x, this.y, this.width, this.height); // draw an ellipse at x=250, y=150
         this.setX(this.x+speedX);
         this.setY(this.y+speedY);
